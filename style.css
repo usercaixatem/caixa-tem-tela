@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-image: url('img/background-caixa.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loading-gif img {
+  max-width: 100px;
+  max-height: 100px; /* Defina a altura máxima desejada */
+  object-fit: contain; /* Garante que a imagem não seja distorcida e fique completamente dentro do contêiner */
+}
+img {
+  width: 180px;
+  height: 180px;
+  padding: 0 auto;
+}
+
+.loading-gif {
+  text-align: center;
+  padding: -100px
+}
+
+.loading-gif img {
+  max-width: 100px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  border: 1px solid #c1c1c1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.password-input {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  background-color: #FCB502;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.help-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.no-show-again {
+  margin-right: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+.version {
+  color: #BCBFC0;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  input {
+    font-size: 12px;
+  }
+  button {
+    font-size: 16px;
+  }
+}
+.text{
+  margin-top: 50px;
+}

